@@ -1,0 +1,15 @@
+.navegador-superior{
+    background-color: #0b0d17;
+}
+.nombrelogo a{
+    color: white;
+    text-decoration: none;
+}
+
+.lista-primaria a{
+    color: aliceblue;
+}
+.logoprincipal{
+    width: 80%;
+    height: auto;
+}

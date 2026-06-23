@@ -6,10 +6,46 @@
     text-decoration: none;
 }
 
-.lista-primaria a{
+.lista-primaria {
     color: aliceblue;
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+    padding:0;
+    flex-direction: row;
+    list-style: none;
+    gap: 200px;
+    justify-content: flex-start;
+
+    justify-content: space-around;
+}
+.lista-primaria a{
+    font-size:20px;
+    cursor: pointer;
 }
 .logoprincipal{
-    width: 80%;
+    display: flex;
+    width: 10%;
     height: auto;
+    align-items: center;
+    gap: 15px;
+}
+.navegador-superior{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.boton-principal{
+    cursor: pointer;
+}
+.opcion1{
+    text-decoration:none;
+    list-style: none;
+    display: none;
+    z-index: 100;
+    background-color: rgb(24, 24, 64);
+}
+.listadesplegable1:hover .opcion1{
+    display:block
 }
